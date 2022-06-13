@@ -1,6 +1,7 @@
 *{
     padding: 0;
     margin:0;
+    
   
 }
 
@@ -14,7 +15,7 @@ header{
     background-image: url(../img/bradcam.png);
     background-repeat: no-repeat;
     background-size: 100% 100%;
-    height:99vh;
+    height:100vh;
     color: white;
 }
 
@@ -100,3 +101,66 @@ header #menu ul #logo{
     text-align: right;
     width: 450px;
   }
+
+
+  
+/* ************************** */
+
+
+ .layout{
+     width: 900px;
+     margin: 165px auto;
+    
+ }
+
+
+ .layout div{
+    display: inline-block;
+    vertical-align: middle;
+    
+ }
+
+ .layout h3{
+     font-size: 33px;
+     padding: 17px 0;
+    
+ }
+
+ .layout p{
+    padding: 15px 0;
+    line-height: 24px;
+    font-size: 12px;
+}
+
+.layout-right .text{
+    width: 375px;
+    
+}
+
+.layout-right .image{
+    width: 492px;
+    text-align: right;
+    padding-left: 10px;
+ 
+}
+
+.layout-left .text{
+    width: 375px;
+    padding-left: 6px;
+    
+}
+
+.layout-left .image{
+    width: 472px;
+    text-align: center;
+ 
+}
+
+
+footer{
+    background-color: black;
+    padding: 100px 10px;
+    color: white;
+    text-align: center;
+}
+
